@@ -65,4 +65,8 @@ fieldset legend {
   line-height: 34px;
 
   text-transform: uppercase;
+
+  width: 100%;
+  border-bottom: 1px solid #E6E6F0;
+  padding-bottom: 16px;
 }
