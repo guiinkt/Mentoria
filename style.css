@@ -105,7 +105,11 @@ fieldset legend {
   line-height: 20px;
 }
 
-.input-wrapper input {
+.input-wrapper label span:hover {
+  color: #858388;
+}
+
+.input-wrapper input, .input-wrapper textarea {
   background: #FAFAFC;
 
   border: 1px solid #E6E6F0;
@@ -117,7 +121,6 @@ fieldset legend {
 
   font-size: 16px;
   line-height: 26px;
-
   color: #8e8b94;
 }
 
