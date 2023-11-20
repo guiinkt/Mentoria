@@ -3,9 +3,13 @@ body {
   font-family: 'Staatliches', sans-serif;
 }
 
+.page {
+  width: 750px;
+  margin: auto;
+}
+
 header {
   width: 417px;
-  margin: auto;
 }
 
 h1 {
