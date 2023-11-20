@@ -1,7 +1,4 @@
 body {
-  font-family: 'Poppins', sans-serif;
-  font-family: 'Staatliches', sans-serif;
-
   background: #EFEFEF;
 }
 
@@ -51,4 +48,19 @@ form {
   background: #ffffff;
   border-radius: 20px 20px 0 0;
   min-height: 300px;
+}
+
+fieldset {
+  border: none;
+}
+
+fieldset legend {
+  color: #535971;
+
+  font-family: 'Staatliches', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 34px;
+
+  text-transform: uppercase;
 }
