@@ -1,33 +1,8 @@
 body {
   font-family: 'Poppins', sans-serif;
   font-family: 'Staatliches', sans-serif;
-}
 
-.page {
-  width: 750px;
-  margin: auto;
-}
-
-header {
-  width: 417px;
-}
-
-h1 {
-  color: #ffffff;
-
-  font-family: 'Staatliches', sans-serif;
-  font-size: 48px;
-  font-weight: 400;
-  line-height: normal;
-}
-
-p {
-  color: #ffffff;
-
-  font-family: 'Poppins', sans-serif;
-  font-size: 20px;
-  font-weight: 400;
-  line-height: normal;
+  background: #EFEFEF;
 }
 
 body::before {
@@ -40,4 +15,40 @@ body::before {
   left: 0;
   z-index: -1;
   background: #535971;
+}
+
+.page {
+  width: 750px;
+  margin: auto;
+}
+
+header {
+  width: 417px;
+
+  margin-top: 140px;
+}
+
+header h1 {
+  color: #ffffff;
+
+  font-family: 'Staatliches', sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+header p {
+  color: #ffffff;
+
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+form {
+  margin-top: 58px;
+  background: #ffffff;
+  border-radius: 20px 20px 0 0;
+  min-height: 300px;
 }
