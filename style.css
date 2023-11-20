@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+body, header p, input, textarea {
+  font-family: 'Poppins', sans-serif;
+}
+
 body {
   background: #EFEFEF;
 }
@@ -45,7 +49,6 @@ header h1 {
 header p {
   color: #ffffff;
 
-  font-family: 'Poppins', sans-serif;
   font-size: 20px;
   font-weight: 400;
   line-height: normal;
@@ -87,7 +90,6 @@ fieldset legend {
 .input-wrapper label {
   color: #4E4958;
 
-  font-family: 'Poppins', sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
