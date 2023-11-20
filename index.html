@@ -23,19 +23,28 @@
       </header>
       <form>
         <fieldset>
-          <legend>Informações pessoais</legend>
-        </fieldset>
-        <div class="col-2">
-          <div class="input-wrapper">
-            <label for="event-name">Nome</label>
-            <input type="text" id="event-name" />
-          </div>
+          <div class="fieldset-wrapper">
+            <legend>Informações pessoais</legend>
+            <div class="col-2">
+              <div class="input-wrapper">
+                <label for="user-name">Nome</label>
+                <input type="text" id="user-name" />
+              </div>
 
-          <div class="input-wrapper">
-            <label for="event-surname">Sobrenome</label>
-            <input type="text" id="event-surname" />
+              <div class="input-wrapper">
+                <label for="user-surname">Sobrenome</label>
+                <input type="text" id="user-surname" />
+              </div>
+            </div>
+
+            <div class="input-wrapper">
+              <label for="user-email"
+                >Email <span>(digite um email válido)</span></label
+              >
+              <input type="email" id="user-email" />
+            </div>
           </div>
-        </div>
+        </fieldset>
       </form>
     </div>
   </body>
