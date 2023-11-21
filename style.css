@@ -136,3 +136,7 @@ fieldset legend {
 .col-2 .input-wrapper label {
   margin: 36px 0 8px;
 }
+
+#user-password {
+  margin-bottom: 30px;
+}
