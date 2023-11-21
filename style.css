@@ -94,7 +94,7 @@ fieldset legend {
   font-weight: 400;
   line-height: 24px;
 
-  margin: 36px 0px 8px 0px;
+  margin: 16px 4px 8px 0;
 }
 
 .input-wrapper label span {
@@ -131,4 +131,8 @@ fieldset legend {
 
 .col-2 .input-wrapper input {
   width: 300px;
+}
+
+.col-2 .input-wrapper label {
+  margin: 36px 0 8px;
 }
