@@ -140,3 +140,7 @@ fieldset legend {
 #user-password {
   margin-bottom: 30px;
 }
+
+.mentor-info label {
+  margin-top: 32px;
+}
