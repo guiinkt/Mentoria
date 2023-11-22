@@ -21,7 +21,7 @@
         <h1>Mentoria</h1>
         <p>Preencha o formulário abaixo para agendar a sua mentoria</p>
       </header>
-      <form>
+      <form id="my-form">
         <fieldset>
           <div class="fieldset-wrapper">
             <legend>Informações pessoais</legend>
@@ -69,13 +69,15 @@
           <div class="fieldset-wrapper">
             <legend>Seus horários disponíveis</legend>
             <!--Aqui vem a primeira mentoria-->
-            <h3 class="first-mentor">Primeira mentoria</h3> 
+            <h3 class="first-mentor">Primeira mentoria</h3>
             <!--Coluna A-->
             <div class="col-3a">
-            <div class="input-wrapper">
-              <label id="date-time" for="mentor-date">Data <span>(DD/MM/AAAA)</span></label>
-              <input type="date" id="mentor-date" />
-            </div>
+              <div class="input-wrapper">
+                <label id="date-time" for="mentor-date"
+                  >Data <span>(DD/MM/AAAA)</span></label
+                >
+                <input type="date" id="mentor-date" />
+              </div>
               <div class="input-wrapper">
                 <label id="date-time" for="mentor-begin">Das</label>
                 <input type="time" id="mentor-begin" />
@@ -90,10 +92,12 @@
             <h3>Segunda mentoria</h3>
             <!--Coluna B-->
             <div class="col-3b">
-            <div class="input-wrapper">
-              <label id="date-time" for="mentor-date">Data <span>(DD/MM/AAAA)</span></label>
-              <input type="date" id="mentor-date" />
-            </div>
+              <div class="input-wrapper">
+                <label id="date-time" for="mentor-date"
+                  >Data <span>(DD/MM/AAAA)</span></label
+                >
+                <input type="date" id="mentor-date" />
+              </div>
               <div class="input-wrapper">
                 <label id="date-time" for="mentor-begin">Das</label>
                 <input type="time" id="mentor-begin" />
@@ -107,6 +111,9 @@
           </div>
         </fieldset>
       </form>
+      <footer>
+        <button class="button" form="my-form">Salvar</button>
+      </footer>
     </div>
   </body>
 </html>
