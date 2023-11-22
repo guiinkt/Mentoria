@@ -13,9 +13,6 @@ Projeto desenvolvido pela Rocketseat, para ensinar a elaboração de formulário
 
 <p align="center">
   <img alt="Forms" src="/images/layout-preview.png" width="100%">
-  <img alt="Forms" src="/images/layout-preview2.png" width="100%">
-  <img alt="Forms" src="/images/layout-preview3.png" width="100%">
-  <img alt="Forms" src="/images/layout-preview4.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
