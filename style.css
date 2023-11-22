@@ -144,3 +144,7 @@ fieldset legend {
 .mentor-info label {
   margin-top: 32px;
 }
+
+#mentor-name {
+  margin-bottom: 32px;
+}
