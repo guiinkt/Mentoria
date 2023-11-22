@@ -187,3 +187,17 @@ h3 {
 .col-3a, .col-3b {
   display: flex;
 }
+
+footer {
+  background: #535971;
+
+  height: 160px;
+
+  display: flex;
+  flex-direction: column;
+
+  padding: 40px 15px;
+  margin-bottom: 52px;
+
+  border-radius: 0 0 20px 20px;
+}
