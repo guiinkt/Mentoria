@@ -148,3 +148,42 @@ fieldset legend {
 #mentor-name {
   margin-bottom: 32px;
 }
+
+h3 {
+  color: #535c8a;
+
+  font-family: 'Staatliches', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 34px;
+
+  margin: 16px 0 8px 0;
+}
+
+/*Primeira mentoria*/
+.first-mentor {
+  margin: 32px 0 8px 0;
+}
+
+/*id dos inputs do campo "Seus horários disponíveis*/
+#date-time {
+  margin-top: 0;
+}
+
+/*id dos input "Data"*/
+#mentor-date {
+  width: 300px;
+  margin-right: 32px;
+}
+
+
+/*id dos inputs "Das" e "Até"*/
+#mentor-begin, #mentor-end {
+  width: 140px;
+  margin-right: 10px;
+}
+
+/*class das colunas: Primeira mentoria | Segunda mentoria*/
+.col-3a, .col-3b {
+  display: flex;
+}
