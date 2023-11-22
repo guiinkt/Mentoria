@@ -180,6 +180,9 @@ h3 {
 /*id dos inputs "Das" e "Até"*/
 #mentor-begin, #mentor-end {
   width: 140px;
+}
+
+#mentor-begin {
   margin-right: 10px;
 }
 
