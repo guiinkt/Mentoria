@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+:root {
+  font-size: 62.5%;
+}
+
 body, header p, input, textarea {
   font-family: 'Poppins', sans-serif;
 }
@@ -15,7 +19,7 @@ body {
 body::before {
   content: '';
   width: 100%;
-  height: 436px;
+  height: 43.6rem;
 
   position: absolute;
   top: 0;
@@ -25,42 +29,42 @@ body::before {
 }
 
 .page {
-  width: 750px;
+  width: 75rem;
   margin: auto;
 }
 
 header {
-  width: 417px;
+  width: 41.7rem;
 
-  margin-top: 140px;
+  margin-top: 14rem;
 }
 
 header h1 {
   color: #ffffff;
 
   font-family: 'Staatliches', sans-serif;
-  font-size: 48px;
+  font-size: 4.8rem;
   font-weight: 400;
   line-height: normal;
 
-  margin-bottom: 18px;
+  margin-bottom: 1.8rem;
 }
 
 header p {
   color: #ffffff;
 
-  font-size: 20px;
+  font-size: 2rem;
   font-weight: 400;
   line-height: normal;
 }
 
 form {
-  margin-top: 58px;
+  margin-top: 5.8rem;
   background: #ffffff;
-  border-radius: 20px 20px 0 0;
-  min-height: 300px;
+  border-radius: 2rem 2rem 0 0;
+  min-height: 30rem;
 
-  padding: 64px;
+  padding: 6.4rem;
 }
 
 fieldset {
@@ -71,15 +75,15 @@ fieldset legend {
   color: #535971;
 
   font-family: 'Staatliches', sans-serif;
-  font-size: 24px;
+  font-size: 2.4rem;
   font-weight: 400;
-  line-height: 34px;
+  line-height: 3.4rem;
 
   text-transform: uppercase;
 
   width: 100%;
-  border-bottom: 1px solid #E6E6F0;
-  padding-bottom: 8px;
+  border-bottom: 0.1rem solid #E6E6F0;
+  padding-bottom: 0.8rem;
 }
 
 .input-wrapper {
@@ -90,19 +94,19 @@ fieldset legend {
 .input-wrapper label {
   color: #4E4958;
 
-  font-size: 14px;
+  font-size: 1.4rem;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 2.4rem;
 
-  margin: 16px 4px 8px 0;
+  margin: 1.6rem 0.4rem 0.8rem 0;
 }
 
 .input-wrapper label span {
   color: #C1BCCC;
 
-  font-size: 12px;
+  font-size: 1.2rem;
   font-weight: 400;
-  line-height: 20px;
+  line-height: 2rem;
 }
 
 .input-wrapper label span:hover {
@@ -112,57 +116,57 @@ fieldset legend {
 .input-wrapper input, .input-wrapper textarea {
   background: #FAFAFC;
 
-  border: 1px solid #E6E6F0;
-  border-radius: 8px;
+  border: 0.1rem solid #E6E6F0;
+  border-radius: 0.8rem;
 
-  height: 56px;
+  height: 5.6rem;
 
-  padding: 0 20px;
+  padding: 0 2rem;
 
-  font-size: 16px;
-  line-height: 26px;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
   color: #8e8b94;
 }
 
 .col-2 {
   display: flex;
-  gap: 22px;
+  gap: 2.2rem;
 }
 
 .col-2 .input-wrapper input {
-  width: 300px;
+  width: 30rem;
 }
 
 .col-2 .input-wrapper label {
-  margin: 36px 0 8px;
+  margin: 3.6rem 0 0.8rem;
 }
 
 #user-password {
-  margin-bottom: 30px;
+  margin-bottom: 3rem;
 }
 
 .mentor-info label {
-  margin-top: 32px;
+  margin-top: 3.2rem;
 }
 
 #mentor-name {
-  margin-bottom: 32px;
+  margin-bottom: 3.2rem;
 }
 
 h3 {
   color: #535c8a;
 
   font-family: 'Staatliches', sans-serif;
-  font-size: 20px;
+  font-size: 2rem;
   font-weight: 400;
-  line-height: 34px;
+  line-height: 3.4rem;
 
-  margin: 16px 0 8px 0;
+  margin: 1.6rem 0 0.8rem 0;
 }
 
 /*Primeira mentoria*/
 .first-mentor {
-  margin: 32px 0 8px 0;
+  margin: 3.2rem 0 0.8rem 0;
 }
 
 /*id dos inputs do campo "Seus horários disponíveis*/
@@ -172,18 +176,18 @@ h3 {
 
 /*id dos input "Data"*/
 #mentor-date {
-  width: 300px;
-  margin-right: 32px;
+  width: 30rem;
+  margin-right: 3.2rem;
 }
 
 
 /*id dos inputs "Das" e "Até"*/
 #mentor-begin, #mentor-end {
-  width: 140px;
+  width: 14rem;
 }
 
 #mentor-begin {
-  margin-right: 10px;
+  margin-right: 1rem;
 }
 
 /*class das colunas: Primeira mentoria | Segunda mentoria*/
@@ -194,30 +198,30 @@ h3 {
 footer {
   background: #535971;
 
-  height: 160px;
+  height: 16rem;
 
   display: flex;
   flex-direction: column;
 
-  padding: 40px 15px;
-  margin-bottom: 52px;
+  padding: 4rem 1.5rem;
+  margin-bottom: 5.2rem;
 
-  border-radius: 0 0 20px 20px;
+  border-radius: 0 0 2rem 2rem;
 }
 
 footer .button {
-  height: 56px;
+  height: 5.6rem;
   background: #FF5374;
   border: 0;
-  border-radius: 20px;
+  border-radius: 2rem;
 
   width: 85%;
   margin: auto;
 
   font-family: 'Staatliches', sans-serif;
   font-weight: 400;
-  font-size: 20px;
-  line-height: 26px;
+  font-size: 2rem;
+  line-height: 2.6rem;
 
   color: #ffffff;
 
@@ -229,5 +233,5 @@ footer .button:hover {
 }
 
 input:invalid {
-  border: 1px solid red;
+  border: 0.1rem solid red;
 }
